@@ -9,4 +9,14 @@
         <!-- API 14 theme customizations can go here. -->
     </style>
 
+    <!-- Master theme -->
+    <style name="MasterTheme" parent="AppBaseTheme">
+        <item name="android:background">#9CE496</item>
+    </style>
+
+    <!-- Slave theme -->
+    <style name="SlaveTheme" parent="AppBaseTheme">
+        <item name="android:background">#64D6F3</item>
+    </style>
+
 </resources>

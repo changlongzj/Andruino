@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+	>
+        
+  
+    <TextView 
+        android:id="@+id/model_list_function_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    
+    <ImageView 
+        android:layout_alignParentRight="true"
+        android:layout_width="12sp"
+        android:layout_height="12sp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/menu_arrow"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

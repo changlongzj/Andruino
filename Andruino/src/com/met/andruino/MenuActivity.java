@@ -6,7 +6,6 @@ import java.util.List;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -14,16 +13,15 @@ import android.widget.ListView;
 
 import com.met.andruino.adapters.ModesListAdapter;
 
-public class MainActivity extends Activity {
-	
-	ListView listV;
-	
+public class MenuActivity extends Activity {
+	public ListView listV;
+
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
+	protected void onCreate(Bundle savedInstanceState)
+	{
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
-		
-		/*LIST VIEW (BETA)*/
+		setContentView(R.layout.activity_menu);
+
 		listV = (ListView) findViewById(R.id.main_menuList);
 
 		String [] strEvents = {"Robot aut˜nom", "Buscador de pas", "Torito", "Seguidor de l’nies", "Pendent", "Laberint",
@@ -50,13 +48,7 @@ public class MainActivity extends Activity {
 						Toast.LENGTH_SHORT).show();*/
 			}
 		});
+		
+		
 	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);		
-		return true;
-	}
-
 }

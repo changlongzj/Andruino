@@ -12,6 +12,12 @@
         -->
     </style>
 
+    <!-- Colors code for the Application -->
+    <color name="slave_background">#64d6f3</color>
+    <color name="master_background">#9ce496</color>
+    <color name="slave_menu_list_background">#93e2f7</color>
+    <color name="master_menu_list_background">#baecb6</color>
+    
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->

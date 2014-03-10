@@ -4,5 +4,6 @@
     <string name="app_name">Andruino</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="generic_description">Description</string>
 
 </resources>
